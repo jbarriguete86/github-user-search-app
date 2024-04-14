@@ -13,7 +13,7 @@ export default async function getUserInfo(profile){
 
     const date = formatDate(created_at)
     
-    return `
+    return name ? (`
     <div class="logo--info">
         <img src=${avatar_url} alt="avatar of the user"/>
         <div>
@@ -62,6 +62,6 @@ export default async function getUserInfo(profile){
             <p> @github </p>
         </div>
     <div>
-    `
+    `) : null
 }
 
