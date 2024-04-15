@@ -44,6 +44,7 @@ h1{
 }
 
 .darkMode--container{
+    cursor: pointer;
     gap: 1em;
 }
 
@@ -93,6 +94,7 @@ h1{
 }
 
 .form--container > button{
+    cursor: pointer;
     background-color: var(--button--color);
     color: #FFFFFF;
     padding: 0.78em 1.12em;
