@@ -5,20 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <title>Frontend Mentor | GitHub user search app</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>devfinder</h1>
+    <h1 class="title">devfinder</h1>
     <div class="darkMode--container">
-      <img src="./assets/icon-moon.svg" alt="logo of the moon">
-      <p>Dark</p>
+        <p>Dark</p>
+        <img src="./assets/icon-moon.svg" alt="logo of the moon">
     </div>
   </header>
   <main>
     <div class="form--container">
       <img src="./assets/icon-search.svg" alt="icon of a glass magnifier">
-      <input type="text" placeholder=Search GitHub username.../>
-      <button>Search</button>
+      <input class="form--input" type="text" placeholder="Search GitHub username..."/>
+      <p id="result--text">
+      <!-- to be populated wit js -->
+      </p>
+      <button id="form--btn">Search</button>
     </div>
     <div class="info--container">
       <!-- to be populated with js -->
